@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Pi extension exposing Lightpanda web tools plus Playwright-backed real visual screenshots.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guibibi/pi-lightpanda-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Guibibi/pi-lightpanda-extension/issues"
+  },
+  "homepage": "https://github.com/Guibibi/pi-lightpanda-extension#readme",
   "keywords": [
     "pi-package",
     "pi-extension",
