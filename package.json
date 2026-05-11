@@ -1,0 +1,44 @@
+{
+  "name": "pi-lightpanda-extension",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pi extension exposing Lightpanda web tools plus Playwright-backed real visual screenshots.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "lightpanda",
+    "playwright",
+    "screenshot",
+    "cdp",
+    "web"
+  ],
+  "files": [
+    "README.md",
+    "index.ts",
+    "tsconfig.json"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "scripts": {
+    "check": "npm run typecheck && npm pack --dry-run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
